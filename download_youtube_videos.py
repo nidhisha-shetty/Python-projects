@@ -1,5 +1,5 @@
-from youtube_dl import YoutubeDL            #import YoutubeDL class from youtube_dl package
-import os 						                      #importing os; used to change directory to save video files in a particular directory
+from youtube_dl import YoutubeDL            # import YoutubeDL class from youtube_dl package
+import os 						     # importing os; used to change directory to save video files in a particular directory
 video_url=["https://youtu.be/_jJZZFPQOvI"]  #list of YT video urls 
 path="C:/Users/Nidhisha Shetty/Desktop"     #path of the directory where the YT videos will be saved 
 print("Crnt dir" + os.getcwd())			        #check the path of current directory
