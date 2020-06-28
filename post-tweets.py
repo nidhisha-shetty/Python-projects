@@ -2,10 +2,10 @@
 
 								###using twython post tweets on twitter
 from twython import Twython
-APP_KEY="r84tfRQsecYZO7XIvfJFlR8Fn"
-APP_SECRET="zCTENpUJXqzB8eG3gQcySKd2g6CsG3CPn0bRMFwvBdJyJIk8qK"
-OAUTH_TOKEN="927454279585087489-1XINu6ol8fjWbx9xcIWq2gXQzwC6P2n"
-OAUTH_TOKEN_SECRET="LoR6KMYJCNQCtvTWtdxKCrnareeqZ2sYRYWcZb6qwJgQI"
+APP_KEY="consumer_key"
+APP_SECRET="consumer_secret_key"
+OAUTH_TOKEN="authentication_token"
+OAUTH_TOKEN_SECRET="authentication_secret_token"
 twi = Twython(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 twi.update_status(status='Twython status test')
 
@@ -16,10 +16,10 @@ twi.update_status(status='Twython status test')
 import tweepy 
 
 # personal details 
-consumer_key ="r84tfRQsecYZO7XIvfJFlR8Fn"
-consumer_secret ="zCTENpUJXqzB8eG3gQcySKd2g6CsG3CPn0bRMFwvBdJyJIk8qK"
-access_token ="927454279585087489-1XINu6ol8fjWbx9xcIWq2gXQzwC6P2n"
-access_token_secret ="LoR6KMYJCNQCtvTWtdxKCrnareeqZ2sYRYWcZb6qwJgQI"
+consumer_key ="consumer_key"
+consumer_secret ="consumer_secret_key"
+access_token ="authentication_token"
+access_token_secret ="authentication_secret_token"
 
 # authentication of consumer key and secret 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret) 
