@@ -1,4 +1,4 @@
-# Python-projects
+# About projects
 
 1. Download YouTube videos: \
 If there is no download option present under the video on YouTube, we can still download the video using `YoutubeDL` library in our python program to download the video successfully. 
