@@ -9,5 +9,3 @@ ydl = YoutubeDL()						                #create object of the YoutubeDL class, th
 print("Downloading youtube videos...")
 ydl.download(video_url)					            #call the download functin using object of the class, download function takes a list(of url's) as the argument
 print("Download completed!!!")
-
-
